@@ -30,7 +30,6 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuex-orm-axios'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -51,6 +50,7 @@ module.exports = {
   */
   axios: {
   },
+  serverMiddleware: ['~/server/api/index.js'],
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module

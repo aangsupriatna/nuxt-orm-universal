@@ -92,11 +92,6 @@ export default {
 
   computed: {
     // ...mapState('entities', ['projects'])
-  },
-
-  mounted() {
-    this.$store.dispatch('entities/users/loadUsers')
-    this.$store.dispatch('entities/projects/loadProjects')
   }
 }
 </script>
